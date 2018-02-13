@@ -8,6 +8,9 @@
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 	
+	<!-- 前端控制器DispaerServlet中就有ioc容器，只有前端的话不需要单独在配置Spring -->
+	<!-- servlet容器ServletContext ；spring父容器ApplicationContext；springmvc子容器WebApplicationContext -->
+	
 	<!-- post乱码过滤器 -->
 	<filter>
 		<filter-name>CharacterEncodingFilter</filter-name>

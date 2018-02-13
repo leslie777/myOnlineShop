@@ -10,6 +10,9 @@
         <dependent-module archiveName="fk-manager-pojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fk-manager-pojo/fk-manager-pojo">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="fk-manager-interface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fk-manager-interface/fk-manager-interface">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="fk-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fk-common/fk-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
