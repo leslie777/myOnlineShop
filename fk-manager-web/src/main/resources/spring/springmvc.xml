@@ -19,6 +19,11 @@
 	<!-- 配置包扫描器@controller注解的类 -->
 	<context:component-scan base-package="com.fk.controller"></context:component-scan>
 	
+	<!-- 配置资源映射 -->
+	<!-- url中的（/css/**(多级)）会自动去location下面找资源 -->
+	<mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
+	<mvc:resources location="/js/" mapping="/js/**"></mvc:resources>
+	
 	<!-- 引用dobbo服务，其实就是在zookeep中将服务拿到bean注入ioc容器  启用一下配置，需要引入dobbo命名空间-->
 	<!-- (在注册中心注册时的工程名)提供方应用信息，用于计算依赖关系 -->
 	<dubbo:application name="fk-manager-web" />
