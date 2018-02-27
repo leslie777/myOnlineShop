@@ -1,0 +1,367 @@
+
+
+[INFO ] 2018-02-27 13:50:35,327 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'fk-manager-web': initialization started
+
+
+[INFO ] 2018-02-27 13:50:35,377 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'fk-manager-web-servlet': startup date [Tue Feb 27 13:50:35 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-02-27 13:50:35,433 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2018-02-27 13:50:36,214 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-02-27 13:50:36,396 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-02-27 13:50:37,179 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/item/{itemId}]}" onto public com.fk.pojo.TbItem com.fk.controller.ItemController.geTbItemById(java.lang.Long)
+
+
+[INFO ] 2018-02-27 13:50:37,861 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'fk-manager-web-servlet': startup date [Tue Feb 27 13:50:35 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-02-27 13:50:37,983 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'fk-manager-web-servlet': startup date [Tue Feb 27 13:50:35 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-02-27 13:50:38,279 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\fk\.dubbo\dubbo-registry-192.168.91.133.cache, data: {com.fk.service.ItemService=empty://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=configurators&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=13800&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519710586759 empty://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=routers&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=13800&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519710586759 dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=10548&side=provider&timeout=300000&timestamp=1519710478363}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-02-27 13:50:38,316 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-02-27 13:50:38,346 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-02-27 13:50:38,347 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=fk-acer
+
+
+[INFO ] 2018-02-27 13:50:38,347 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_111
+
+
+[INFO ] 2018-02-27 13:50:38,348 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-02-27 13:50:38,348 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=D:\devkit\Java\jdk1.8.0_111\jre
+
+
+[INFO ] 2018-02-27 13:50:38,349 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\devkit\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar
+
+
+[INFO ] 2018-02-27 13:50:38,349 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=D:\devkit\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\devkit\Java\jdk1.8.0_111\jre\bin;D:/devkit/Java/jre1.8.0_111/bin/server;D:/devkit/Java/jre1.8.0_111/bin;D:/devkit/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\devkit\Ruby23-x64\bin;C:\Users\fk\AppData\Local\Microsoft\WindowsApps;"D:\devkit\mysql-5.7.21-win32\bin";;D:\devkit\Microsoft VS Code\bin;D:\devkit\eclipse;;.
+
+
+[INFO ] 2018-02-27 13:50:38,352 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\fk\AppData\Local\Temp\
+
+
+[INFO ] 2018-02-27 13:50:38,352 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-02-27 13:50:38,353 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-02-27 13:50:38,353 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-02-27 13:50:38,353 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-02-27 13:50:38,354 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=fk
+
+
+[INFO ] 2018-02-27 13:50:38,354 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\fk
+
+
+[INFO ] 2018-02-27 13:50:38,354 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=D:\workspace\myOnlineShop\fk-manager-web
+
+
+[INFO ] 2018-02-27 13:50:38,357 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.91.133:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@3365dfe5
+
+
+[INFO ] 2018-02-27 13:50:38,418 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.91.133/192.168.91.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-02-27 13:50:38,422 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.91.133/192.168.91.133:2181, initiating session
+
+
+[INFO ] 2018-02-27 13:50:38,433 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.91.133/192.168.91.133:2181, sessionid = 0x161d93b8bcd0003, negotiated timeout = 30000
+
+
+[INFO ] 2018-02-27 13:50:38,437 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-02-27 13:50:38,481 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519710638158, dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:50:38,656 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519710638158, dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:50:38,743 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519710638158, urls: [dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=10548&side=provider&timeout=300000&timestamp=1519710478363, empty://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=configurators&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519710638158, empty://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=routers&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519710638158], dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:50:39,317 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /10.127.9.9:20880 from NettyClient 10.127.9.9 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xc76f33b4, /10.127.9.9:34729 => /10.127.9.9:20880]], dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:50:39,318 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient fk-acer/10.127.9.9 connect to the server /10.127.9.9:20880, dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:50:39,594 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.fk.service.ItemService from url zookeeper://192.168.91.133:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=fk-manager-web&check=false&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158, dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:50:39,803 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'fk-manager-web': initialization completed in 4471 ms
+
+
+[WARN ] 2018-02-27 13:51:22,533 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)
+No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'fk-manager-web'
+
+
+[ERROR] 2018-02-27 13:52:45,077 method:com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:181)
+ [DUBBO] Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0xc76f33b4, /10.127.9.9:34729 => /10.127.9.9:20880]], url: dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158, dubbo version: 2.5.3, current host: 10.127.9.9
+java.lang.Exception: Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0xc76f33b4, /10.127.9.9:34729 => /10.127.9.9:20880]], url: dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:180)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+[ERROR] 2018-02-27 13:52:45,090 method:com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:181)
+ [DUBBO] Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0xc76f33b4, /10.127.9.9:34729 => /10.127.9.9:20880]], url: dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158, dubbo version: 2.5.3, current host: 10.127.9.9
+java.lang.Exception: Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0xc76f33b4, /10.127.9.9:34729 => /10.127.9.9:20880]], url: dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:180)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+[ERROR] 2018-02-27 13:52:45,114 method:com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:181)
+ [DUBBO] Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0xc76f33b4, /10.127.9.9:34729 => /10.127.9.9:20880]], url: dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158, dubbo version: 2.5.3, current host: 10.127.9.9
+java.lang.Exception: Dubbo client can not supported string message:  in channel: NettyChannel [channel=[id: 0xc76f33b4, /10.127.9.9:34729 => /10.127.9.9:20880]], url: dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158
+	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:180)
+	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:52)
+	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+[INFO ] 2018-02-27 13:56:50,513 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /10.127.9.9:20880,url:dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158, dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[WARN ] 2018-02-27 13:56:52,690 method:com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:160)
+ [DUBBO] client reconnect to 10.127.9.9:20880 find error . url: dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158, dubbo version: 2.5.3, current host: 10.127.9.9
+com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=8188&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519710638158) failed to connect to server /10.127.9.9:20880, error message is:Connection refused: no further information: /10.127.9.9:20880
+	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:124)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:280)
+	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:145)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: no further information: /10.127.9.9:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:150)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:312)
+	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+
+
+[INFO ] 2018-02-27 13:59:35,329 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+FrameworkServlet 'fk-manager-web': initialization started
+
+
+[INFO ] 2018-02-27 13:59:35,363 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:578)
+Refreshing WebApplicationContext for namespace 'fk-manager-web-servlet': startup date [Tue Feb 27 13:59:35 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-02-27 13:59:35,415 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [spring/springmvc.xml]
+
+
+[INFO ] 2018-02-27 13:59:36,080 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-02-27 13:59:36,251 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:153)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-02-27 13:59:36,916 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:527)
+Mapped "{[/item/{itemId}]}" onto public com.fk.pojo.TbItem com.fk.controller.ItemController.geTbItemById(java.lang.Long)
+
+
+[INFO ] 2018-02-27 13:59:37,422 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'fk-manager-web-servlet': startup date [Tue Feb 27 13:59:35 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-02-27 13:59:37,526 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:532)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'fk-manager-web-servlet': startup date [Tue Feb 27 13:59:35 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-02-27 13:59:37,852 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:232)
+ [DUBBO] Load registry store file C:\Users\fk\.dubbo\dubbo-registry-192.168.91.133.cache, data: {com.fk.service.ItemService=empty://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager&category=configurators&check=false&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=10552&side=provider&timeout=300000&timestamp=1519711148054}, dubbo version: 2.5.3, current host: 127.0.0.1
+
+
+[INFO ] 2018-02-27 13:59:37,890 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-02-27 13:59:37,932 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:zookeeper.version=3.4.7-1713338, built on 11/09/2015 04:32 GMT
+
+
+[INFO ] 2018-02-27 13:59:37,933 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:host.name=fk-acer
+
+
+[INFO ] 2018-02-27 13:59:37,934 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.version=1.8.0_111
+
+
+[INFO ] 2018-02-27 13:59:37,935 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.vendor=Oracle Corporation
+
+
+[INFO ] 2018-02-27 13:59:37,935 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.home=D:\devkit\Java\jdk1.8.0_111\jre
+
+
+[INFO ] 2018-02-27 13:59:37,936 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.class.path=D:\devkit\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar
+
+
+[INFO ] 2018-02-27 13:59:37,937 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.library.path=D:\devkit\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\devkit\Java\jdk1.8.0_111\jre\bin;D:/devkit/Java/jre1.8.0_111/bin/server;D:/devkit/Java/jre1.8.0_111/bin;D:/devkit/Java/jre1.8.0_111/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\devkit\Ruby23-x64\bin;C:\Users\fk\AppData\Local\Microsoft\WindowsApps;"D:\devkit\mysql-5.7.21-win32\bin";;D:\devkit\Microsoft VS Code\bin;D:\devkit\eclipse;;.
+
+
+[INFO ] 2018-02-27 13:59:37,939 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.io.tmpdir=C:\Users\fk\AppData\Local\Temp\
+
+
+[INFO ] 2018-02-27 13:59:37,940 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:java.compiler=<NA>
+
+
+[INFO ] 2018-02-27 13:59:37,940 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.name=Windows 10
+
+
+[INFO ] 2018-02-27 13:59:37,940 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.arch=amd64
+
+
+[INFO ] 2018-02-27 13:59:37,941 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:os.version=10.0
+
+
+[INFO ] 2018-02-27 13:59:37,941 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.name=fk
+
+
+[INFO ] 2018-02-27 13:59:37,942 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.home=C:\Users\fk
+
+
+[INFO ] 2018-02-27 13:59:37,943 method:org.apache.zookeeper.Environment.logEnv(Environment.java:100)
+Client environment:user.dir=D:\workspace\myOnlineShop\fk-manager-web
+
+
+[INFO ] 2018-02-27 13:59:37,945 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:438)
+Initiating client connection, connectString=192.168.91.133:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@124e5a8b
+
+
+[INFO ] 2018-02-27 13:59:38,007 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1032)
+Opening socket connection to server 192.168.91.133/192.168.91.133:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-02-27 13:59:38,012 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:876)
+Socket connection established to 192.168.91.133/192.168.91.133:2181, initiating session
+
+
+[INFO ] 2018-02-27 13:59:38,030 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1299)
+Session establishment complete on server 192.168.91.133/192.168.91.133:2181, sessionid = 0x161d93b8bcd0005, negotiated timeout = 30000
+
+
+[INFO ] 2018-02-27 13:59:38,033 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)
+
+
+[INFO ] 2018-02-27 13:59:38,087 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:302)
+ [DUBBO] Register: consumer://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=consumers&check=false&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=13440&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519711177729, dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:59:38,129 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:325)
+ [DUBBO] Subscribe: consumer://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=13440&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519711177729, dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:59:38,192 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:422)
+ [DUBBO] Notify urls for subscribe url consumer://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=providers,configurators,routers&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=13440&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519711177729, urls: [dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=10552&side=provider&timeout=300000&timestamp=1519711148054, empty://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=configurators&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=13440&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519711177729, empty://10.127.9.9/com.fk.service.ItemService?application=fk-manager-web&category=routers&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=13440&revision=0.0.1-SNAPSHOT&side=consumer&timestamp=1519711177729], dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:59:38,582 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:287)
+ [DUBBO] Successed connect to server /10.127.9.9:20880 from NettyClient 10.127.9.9 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0xa5736bc3, /10.127.9.9:34992 => /10.127.9.9:20880]], dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:59:38,584 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:105)
+ [DUBBO] Start NettyClient fk-acer/10.127.9.9 connect to the server /10.127.9.9:20880, dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:59:38,749 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:423)
+ [DUBBO] Refer dubbo service com.fk.service.ItemService from url zookeeper://192.168.91.133:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=fk-manager-web&check=false&dubbo=2.5.3&interface=com.fk.service.ItemService&methods=getItemById&pid=13440&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519711177729, dubbo version: 2.5.3, current host: 10.127.9.9
+
+
+[INFO ] 2018-02-27 13:59:39,104 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)
+FrameworkServlet 'fk-manager-web': initialization completed in 3772 ms
+
+
+[INFO ] 2018-02-27 14:01:25,194 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:130)
+ [DUBBO] disconected from /10.127.9.9:20880,url:dubbo://10.127.9.9:20880/com.fk.service.ItemService?anyhost=true&application=fk-manager-web&check=false&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.fk.service.ItemService&methods=getItemById&pid=13440&revision=0.0.1-SNAPSHOT&side=consumer&timeout=300000&timestamp=1519711177729, dubbo version: 2.5.3, current host: 10.127.9.9

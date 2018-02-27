@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:context="http://www.springframework .org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
 	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
 	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://ywww.springframework.org/schema/beans/spring-beans-4.2.xsd
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
 	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
@@ -16,9 +16,10 @@
 	<!-- (在注册中心注册时的工程名)提供方应用信息，用于计算依赖关系 -->
 	<dubbo:application name="fk-manager" />
 	<!-- 注册中心的地址 -->
-	<dubbo:registry protocol="zookeeper" address="192.168.91.132:2181" />
+	<dubbo:registry protocol="zookeeper" address="192.168.91.133:2181" />
 	<!-- 用dubbo协议在20880端口暴露服务（和tomcat无关） -->
 	<dubbo:protocol name="dubbo" port="20880" />
 	<!-- 声明需要暴露的服务接口 -->
+	<!-- 接口实现相分离，impl依赖接口，以接口为类型注册到祖册中心 -->
 	<dubbo:service interface="com.fk.service.ItemService" ref="itemServiceImpl" timeout="300000"/>
 </beans>
